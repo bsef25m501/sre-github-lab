@@ -46,8 +46,7 @@ The proposed system aims to digitize and centralize the food ordering and delive
 - FR-08: The system shall allow servers to view their assigned orders and related delivery details.
 - FR-09: The system shall allow servers to update the delivery status of assigned orders.
 - FR-10: The system shall allow students to view order status updates at major stages of delivery.
-- FR-11: The system shall support cash and online banking as payment methods.
-- FR-12: The system shall maintain records of completed orders, including customer, order, delivery, and payment information.
+
 
 ## Nonfunctional requirements
 
@@ -65,7 +64,7 @@ The proposed system aims to digitize and centralize the food ordering and delive
 - FR-04: Given a student selects food items and specifies quantities, placing the order successfully creates a new order.
 - FR-05: Given a student places an order, the system records the student details, selected items, quantities, total price, hostel number, room number, order date/time, and payment method.
 - FR-06: Given new orders have been placed, the canteen manager can view their details and confirm them.
-- FR-07: Given a pending order and an available server, assigning the order makes it visible in that server's assigned orders.
+- FR-07: Given a pending order and an available server, when the canteen manager assigns the order, the system shall display the assigned order in the server's account within 5 seconds and update its status to Assigned.
 - FR-08: Given a server has an assigned order, the system displays the student's name, hostel number, room number, ordered items, and payment method.
 - FR-09: Given a server has an assigned order, updating its delivery status changes the status displayed by the system.
 - FR-10: Given an order moves through its delivery stages, the student can view its current status: Pending, Preparing, Assigned, Out for Delivery, or Delivered.
@@ -85,11 +84,10 @@ Assumptions
 
 Open Questions
 
-- Q-01: Which specific online banking methods will be supported?
-- Q-02: How will the system verify that a server is available for a new delivery assignment?
-- Q-03: Should students be allowed to cancel an order after it has been confirmed?
-- Q-04: Who will be responsible for updating server availability?
-- Q-05: What devices and network environments will be used to test system performance?
+- Q-01: How will the system verify that a server is available for a new delivery assignment?
+- Q-02: Should students be allowed to cancel an order after it has been confirmed?
+- Q-03: Who will be responsible for updating server availability?
+- Q-04: What devices and network environments will be used to test system performance?
 
 ## Project status and viewing
 
